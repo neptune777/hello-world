@@ -1,0 +1,31 @@
+{
+  "name": "github-code",
+  "version": "1.0.0",
+  "description": "hello world app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neptune777/hello-world.git"
+  },
+  "keywords": [
+    "My",
+    "first",
+    "GitHub",
+    "repository"
+  ],
+  "author": "Matti Kinnunen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neptune777/hello-world/issues"
+  },
+  "homepage": "https://github.com/neptune777/hello-world#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "mongoose": "^5.1.3"
+  }
+}
